@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <title>Momentum</title>
+</head>
+<body>
+    <!-- 시계를 표시하는 요소 -->
+    <h1 id="clock"></h1>
+
+    <!-- 이름을 입력받는 input -->
+    <form id="frmLogin" class="hidden">
+        <input required maxlength="19" type="text" placeholder="what's your name?"/>
+
+    </form>
+    
+    <!-- 이름을 입력받으면 나오는 메세지 -->
+    <h2 id="greeting" class="hidden"></h2>
+    
+    <!-- 할 일을 나열 -->
+    <ul id = "lstTodo">
+        
+    </ul>    
+    <!-- 할 일을 입력받는 input -->
+    <form id = "frmTodo" class="Todolist">
+        <input type = "text" placeholder = "할 일을 적고 엔터">
+    </form>
+
+    <!-- 날씨 정보를 나타냄 -->
+    <div id = "weather">
+        <span>날씨</span>
+        <span>지역</span>
+    </div>
+
+    <!-- 명언을 나타냄 -->
+    <div id="quote">
+        <span></span>
+        <span></span>
+    </div>
+
+    <script src="backgroud.js"></script>
+    <script src="greeting.js"></script>
+    <script src="clock.js"></script>
+    <script src="quotes.js"></script>
+    <script src="todo.js"></script>
+    <script src="weather.js"></script>
+</body>
+</html>

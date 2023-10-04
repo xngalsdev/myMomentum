@@ -1,0 +1,87 @@
+body:not(.Todolist) {
+    background-color: white;
+    margin-top:12cm;
+    text-align:center;
+    text-shadow: -1px 0px black, 0px 1px black, 1px 0px black, 0px -1px black;
+}
+
+.hidden{
+    display: none;
+}
+
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+.Image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    animation: fadeIn 1s linear;
+  }
+h1{
+    color:white;
+    font-size:120px;
+    letter-spacing: -5px;
+    line-height:2px;
+}
+#weather{
+    color:white;
+    font-size:30px;
+    position: fixed;
+    margin-top:10cm;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#quote{
+    color:white;
+    font-size:30px;
+    position: fixed;
+    margin-top:12cm;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#greeting{
+    color:white;
+    font-size:40px;
+}
+#lstTodo{
+    color:white;
+    position:absolute;
+    top:610px;
+    left:1600px;
+    font-size:35px;
+    font-weight:bold;
+}
+input::placeholder {
+    color:white;
+}
+
+input {
+    background-color: transparent;
+    color:white !important;
+    width: 250px;
+    height: 32px;
+    font-size: 25px;
+    font-weight:bold;
+    border: 0;
+    border-bottom: 2px solid white;
+    outline: none;
+    padding-left: 10px;
+  }
+#frmTodo{
+    color:white;
+    position:absolute;
+    top:600px;
+    left:1600px;
+}
